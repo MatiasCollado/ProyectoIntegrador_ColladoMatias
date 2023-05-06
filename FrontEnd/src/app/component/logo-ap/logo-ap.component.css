@@ -1,0 +1,48 @@
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* #logoAP{
+    width: 150px;
+} */
+
+.redes{
+margin-right: 0.5em;
+}
+
+img{
+    width: 50px;
+}
+#github{
+    width: 80px;
+}
+#twitter{
+    width:40px;
+}
+
+.btn{
+    border-width: medium;
+}
+
+
+/* Celular */
+
+@media (max-width:575px){
+    .container{
+        flex-direction: column;
+    }
+    
+    .redes{
+        display: flex;
+        align-items: center;
+    }
+    
+    .container div{
+        padding: 10px;
+    }
+    
+    div{
+        margin: 0;
+    }
+}
