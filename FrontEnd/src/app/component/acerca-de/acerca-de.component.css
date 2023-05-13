@@ -20,22 +20,31 @@ h2{
 .row{
     padding:20px;
 }
+#principal{
+    height: 500px;
+}
 
 @media (min-width: 576px){
+    #imagen{
+        height: 50%;
+    }
     #fotodeperfil{
-        position: absolute;
-        width: 15%;
-        left: 4%;
-        top: 100%;
+        /* position: absolute; */
+        width: 16%;
+        left: 40%;
+        /* top: 100%; */
         border-radius: 50%;
         box-shadow: 3px 3px 3px grey;
     }
 }
 
 @media (max-width: 575px){
+    #imagen{
+        height: 50%;
+    }
     #fotodeperfil{
         /* position: absolute; */
-        width: 15%;
+        width: 40%;
         left: 50%;
         border-radius: 50%;
         box-shadow: 3px 3px 3px grey;
