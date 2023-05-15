@@ -18,6 +18,9 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { FormsModule } from '@angular/forms';
 import { NewExperienciaComponent } from './component/experiencia/new-experiencia.component';
+import { EditExperienciaComponent } from './component/experiencia/edit-experiencia/edit-experiencia.component';
+import { NeweducacionComponent } from './component/educacion/neweducacion/neweducacion.component';
+import { EditeducacionComponent } from './component/educacion/editeducacion.component';
 
 
 
@@ -35,7 +38,10 @@ import { NewExperienciaComponent } from './component/experiencia/new-experiencia
     FooterComponent,
     HomeComponent,
     LoginComponent,
-    NewExperienciaComponent
+    NewExperienciaComponent,
+    EditExperienciaComponent,
+    NeweducacionComponent,
+    EditeducacionComponent
   ],
   imports: [
     BrowserModule,

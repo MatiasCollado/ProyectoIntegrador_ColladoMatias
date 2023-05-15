@@ -28,4 +28,21 @@ export class LogoApComponent {
   login(){
     this.router.navigate(['/login'])
   }
+
+  redirectToFacebook() {
+    window.location.href = 'https://www.facebook.com';
+  }
+
+  redirectToTwitter() {
+    window.location.href = 'https://www.twitter.com';
+  }
+
+  redirectToGithub() {
+    window.location.href = 'https://www.github.com';
+  }
+
+  redirectToLinkedin() {
+  window.location.href = 'https://www.linkedin.com';
 }
+}
+

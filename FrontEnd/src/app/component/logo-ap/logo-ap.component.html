@@ -4,16 +4,23 @@
             <img src="../../../assets/logo-ap.png" id="logoAP">
         </div>
         <div class="redes">
-            <a href=""><img src="../../../assets/logo-facebook.png" id="facebook"></a>
-            <a href=""><img src="../../../assets/logo-linkedin.png" id="linkedin"></a>
-            <a href=""><img src="../../../assets/logo-twitter.png" id="twitter"></a>
-            <a href=""><img src="../../../assets/logo-instagram.png" id="instagram"></a>
-            <a href=""><img src="../../../assets/logo-github.png" id="github"></a>
+            <button class="btn btn-outline-light" (click)="redirectToTwitter()">
+                <i class="bi bi-twitter"></i>
+            </button>
+            <button class="btn btn-outline-light" (click)="redirectToGithub()">
+                <i class="bi bi-github"></i>
+            </button>
+            <button class="btn btn-outline-light" (click)="redirectToLinkedin()">
+                <i class="bi bi-linkedin"></i>
+            </button>
+            <button class="btn btn-outline-light" (click)="redirectToFacebook()">
+                <i class="bi bi-facebook"></i>
+            </button>
         </div>
         <div class="ingresar">
             <button type="button" class="btn btn-outline-light" (click)="login()" *ngIf="!isLogged">INGRESAR</button>
-            <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">CERRAR SESION</button>
+            <button type="button" class="btn btn-outline-light" (click)="onLogOut()" *ngIf="isLogged">CERRAR
+                SESION</button>
         </div>
-    </div>  
+    </div>
 </div>
-
